@@ -1,38 +1,173 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  color: rgb(0, 0, 0);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 500px;
+  background-color: #d4418e;
+  background: -webkit-linear-gradient(
+    top,
+    rgb(103, 227, 203) 0%,
+    rgb(86, 165, 221) 60%,
+    rgb(73, 126, 228) 99%,
+    rgb(255, 255, 255) 100%
+  );
+  font-family: "Poppins", sans-serif;
+}
+#allbody {
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+}
+
+#mainbox {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+#topic {
+  font-weight: 900;
+
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  /* border-style: groove; */
+}
+
+#middle {
+  border: solid rgb(255, 255, 255);
+  padding-bottom: 0px;
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+#inputfield {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 30px;
+  /* padding-right: 140px; */
+  padding-left: 10px;
+  font-size: larger;
+  border: solid rgb(194, 191, 191) 1px;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+#addbutton {
   color: white;
+  border: solid 1px;
+  font-weight: bolder;
+  background-color: #904ae8;
+  height: 35px;
+  border-left: 200px;
+  font-size: larger;
+  width: 35px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+/* #addbutton:hover {
+  background-color: greenyellow; 
+ color: white;
+  transform: scale(1.3);
+
+ } */
+
+/* #listed {
+  border: solid rgb(255, 255, 255) 1px;
+  background-color: rgb(196, 190, 190);
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  justify-content: left;
+  align-items: left;
+  font-size: larger;
+} */
+ul {
+  list-style-type: disc;
+}
+ul {
+  /* margin-bottom: 10px; */
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style the list items */
+ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 10px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  padding-bottom: 10px;
+  height: 20px;
+  /* width: 340px; */
+  min-width: 340px;
+  max-width: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child() {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+li:hover .removebutton {
+  display: block !important;
+
+  /* background: #ddd; */
+}
+
+.removebutton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding-right: 7px;
+  border-radius: 2px;
+  font-size: larger;
+  font-weight: bold;
+  float: right;
+  display: none !important;
+  width: 35px;
+  height: 35px;
+  /* margin-left: 20px; */
+}
+/* .removebutton:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+} */
+
+#deleteall {
+  color: white;
+  background-color: #904ae8;
+  height: 30px;
+  width: 80px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+}
+/* #deleteall:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+} */
+#deletebox {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  /* padding-top: 20px; */
+  padding-left: 10px;
 }
