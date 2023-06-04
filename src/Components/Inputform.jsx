@@ -23,7 +23,7 @@ function Inputform() {
   return (
     <div id="allbody">
       <div id="mainbox">
-        <h1 id="topic">Todo App</h1>
+        <h1 id="topic">REMINDER APP</h1>
 
         <div id="middle">
           <span></span>

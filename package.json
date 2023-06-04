@@ -1,8 +1,8 @@
 {
   "name": "to-do-list",
-  "homepage": "https://rohan-poudel.github.io/to-do-list",
+  "homepage": "https://poudelrohan.github.io/to-do-list",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
