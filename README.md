@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# To-Do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a simple and interactive To-Do List application. With this application, you can easily manage and organize your daily tasks, set priorities, and track your progress.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Task Management**: Add, edit, and remove tasks effortlessly. The application provides a user-friendly interface to create and manage your to-do items effectively.
+- **Prioritization**: Set task priorities to stay focused on the most important activities. Prioritizing tasks helps you stay organized and complete your work efficiently.
+- **Progress Tracking**: Keep track of your progress by marking tasks as completed. This feature allows you to see your achievements and ensures nothing slips through the cracks.
+- **Responsive Design**: The application is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the To-Do List application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```shell
+   git clone https://github.com/poudelrohan/to-do-list.git
+2. Navigate to the project directory:
+   ```shell
+   cd to-do-list
+3. Open the index.html file in your preferred web browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+- **Adding a Task**: To add a new task, enter the task description in the input field provided and press Enter or click the "Add" button. The task will be added to your to-do list.
+- **Editing a Task**: To edit a task, simply click on the task description and modify it. Press Enter to save the changes.
+- **Completing a Task**: Click the checkbox next to a task to mark it as completed. The task will be visually distinguished from the incomplete tasks.
+- **Removing a Task**: To remove a task, click the "Delete" button next to the task. The task will be permanently removed from your to-do list.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you would like to enhance the application or fix any issues, please follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-new-branch`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin my-new-branch`.
+5. Submit a pull request detailing your changes.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the [MIT License](LICENSE).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- This application was inspired by the need for a simple and efficient to-do list manager.
+- The project structure and design were influenced by modern web development practices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+If you have any questions, suggestions, or feedback, please feel free to reach out to the project owner, Rohan Poudel, via email at [rohan@example.com](mailto:rohan@example.com).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy staying organized with the To-Do List application!
