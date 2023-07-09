@@ -6,9 +6,11 @@ This repository contains a simple and interactive To-Do List application. With t
 
 - **Task Management**: Add, edit, and remove tasks effortlessly. The application provides a user-friendly interface to create and manage your to-do items effectively.
 - **Responsive Design**: The application is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
+## Deployment
+
+The To-Do List App is deployed using GitHub Pages and can be accessed [here](https://poudelrohan.github.io/to-do-list).
 
 ## Getting Started
-To run the To-Do List application in your browser go to: https://poudelrohan.github.io/to-do-list
 
 To run the To-Do List application locally, follow these steps:
 
