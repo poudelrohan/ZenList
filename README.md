@@ -8,6 +8,7 @@ This repository contains a simple and interactive To-Do List application. With t
 - **Responsive Design**: The application is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
 
 ## Getting Started
+To run the To-Do List application in your browser go to: https://poudelrohan.github.io/to-do-list
 
 To run the To-Do List application locally, follow these steps:
 
