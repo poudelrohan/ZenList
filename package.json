@@ -1,6 +1,6 @@
 {
-  "name": "to-do-list",
-  "homepage": "https://poudelrohan.github.io/to-do-list",
+  "name": "ZenList",
+  "homepage": "https://poudelrohan.github.io/ZenList",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
