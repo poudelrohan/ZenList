@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/to-do-list/static/css/main.e6f48651.css",
-    "main.js": "/to-do-list/static/js/main.b2edb33b.js",
-    "index.html": "/to-do-list/index.html",
-    "main.e6f48651.css.map": "/to-do-list/static/css/main.e6f48651.css.map",
-    "main.b2edb33b.js.map": "/to-do-list/static/js/main.b2edb33b.js.map"
+    "main.css": "/ZenList/static/css/main.e6f48651.css",
+    "main.js": "/ZenList/static/js/main.b2edb33b.js",
+    "index.html": "/ZenList/index.html",
+    "main.e6f48651.css.map": "/ZenList/static/css/main.e6f48651.css.map",
+    "main.b2edb33b.js.map": "/ZenList/static/js/main.b2edb33b.js.map"
   },
   "entrypoints": [
     "static/css/main.e6f48651.css",
